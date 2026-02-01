@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <style>
+        section {
+            height: 300px;
+            width: 70vw;
+            border: solid;
+            display: flex;
+            /*flex-direction: column;*/
+            /*justify-content: center;*/
+            /*align-items: center;*/
+            /*justify-content: space-between;*/
+            /*justify-content: space-evenly;*/
+            /*justify-content: space-around;*/
+            /*justify-content: center;*/
+            /*flex-direction: row-reverse;*/
+            /*align-items: center;*
+            flex-wrap: wrap;*/
+            /*column-gap: 0px;
+            row-gap: 0px;
+            gap: 20px;*/
+        }
+        div {
+            height: 100px;
+            width: 100px;
+            border: solid;
+            font-size: 50px;
+            text-align: center;
+        }
+        section :nth-child(1) {
+            background-color: red;
+            /*order: 4;
+            align-self: center;*/
+            /*flex-basis: 200px;*/
+            flex-grow: 1;
+            flex-shrink: 2;
+        }
+        section :nth-child(2) {
+            background-color: yellow;
+            /*order: 3;*/
+            flex: 2;
+        }
+        section :nth-child(3) {
+            background-color: orange;
+            /*order: 2;
+            align-self: center*/
+            flex: 1;
+        }
+        section :nth-child(4) {
+            background-color: blue;
+            /*order: 1;
+            align-self: flex-end;*/
+            flex-grow: 1;
+
+        }
+    </style>
+<body>
+    <section>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </section>
+</body>
+</html>

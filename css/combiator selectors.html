@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--- Combinator selectors
+            1. Desendent selector(_)
+            2. Child selector(>)
+            3. Adjacent sibling selector(+)
+            4. General sibling selector(~)
+    --->
+</head>
+<style>
+    /*section main{
+        background-color: aqua;
+    }*/
+    /*section > main{
+        background-color: aqua;
+    }*/
+    /*div + article{
+        background-color: yellow;
+    }*/
+    /*article + div{
+        background-color: pink;
+    }*/
+    /*div ~ article{
+        background-color: yellow;
+    }*/
+
+</style>
+<body>
+    <section>GrandFather
+        <main>Father
+             <article>child</article>
+             <div>you
+                <p>yourchild</p>
+             </div>
+             <article>child3</article>
+             <article>child4</article>
+             </main>
+             <aside>uncle
+                <main>uncle child</main>
+             </aside>
+       
+    </section>
+</body>
+</html>

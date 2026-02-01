@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      section {
+        height: 70px;
+        width: 100%;
+        border: solid;
+      }
+
+      article {
+        height: 100%;
+        width: 95%;
+        /* border: solid red; */
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      [alt="logo"] {
+        height: 50px;
+        width: 50px;
+        /* border: solid; */
+        border-radius: 50%;
+      }
+
+      ul {
+        display: flex;
+        justify-content: space-between;
+        /* border: solid; */
+        width: 200px;
+
+        li {
+          list-style: none;
+          a {
+            text-decoration: none;
+          }
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <article>
+        <picture>
+          <img
+            src="https://img.freepik.com/free-vector/colorful-letter-gradient-logo-design_474888-2309.jpg?semt=ais_hybrid&w=740&q=80"
+            alt="logo"
+          />
+        </picture>
+        <!-- ? nav links -->
+
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+      </article>
+    </section>
+  </body>
+</html>
