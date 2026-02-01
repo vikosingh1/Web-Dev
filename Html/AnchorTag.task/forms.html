@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+        <label for="username">Name</label>
+        <input id="username" type="text"/> <br> <br>
+        <label for="useremail">Email id</label>
+        <input id="useremail" type="email"/> <br> <br>
+        <label for="usermobile">mobile no.</label>
+        <input id="usermobile" type="number"/> <br> <br>
+        <label for="userage">Age</label>
+        <input id="userage" type="number"/> <br> <br>
+        <label for="">Gender</label>
+        <input id="male" type="radio" value="male" name="gender">male
+        <input type="radio" value="male" name="gender">female
+        <input type="radio" value="male" name="gender">others <br> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Skills</legend>
+        <label for="">choose your skills:</label>
+        <select name="" id="">
+                <optgroup label="Frontend Development">
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="js">JavaScript</option>
+                </optgroup>
+                <optgroup label="database">
+                    <option value="mysql">MySQL</option>
+                    <option value="mongodb">MongoDB</option>
+                    <option value="postgresql">PostgreSQL</option>
+                <optgroup label="Backend Development">
+                    <option value="python">Python</option>
+                    <option value="java">Java</option>
+                    <option value="c++">C++</option>
+                    <option value="c#">C#</option>
+                    <option value="php">PHP</option>
+                    <option value="ruby">Ruby</option>
+                </optgroup>
+        </select> <br> <br>
+        <label for="">Skills</label>
+        <input type="text" list="skills"> <br> <br>
+        <datalist id="skills">
+            <optgroup label="Frontend Development">
+            <option value="HTML">
+            <option value="CSS">
+            <option value="JavaScript">
+            </optgroup>
+            <optgroup label="Database">
+            <option value="MySQL">
+            <option value="MongoDB">
+            <option value="PostgreSQL">
+            </optgroup>
+            <optgroup label="Backend Development">
+            <option value="Python">
+            <option value="Java">
+            <option value="C++">
+            <option value="C#">
+            <option value="PHP">
+            <option value="Ruby">
+            </optgroup>
+        </option>
+        </datalist>
+        </fieldset>
+        <fieldset>
+            <legend>Feedback</legend>
+        <label for="">Feedback</label>
+        <textarea id="feedback" cols="30" rows="10"></textarea> <br> <br>
+        <label for="">feedback</label>
+        <textarea id="fedback" cols="150" rows="4"></textarea> <br> <br>
+        <label for="">feedback</label>
+        <textarea id="feedback" cols="5" rows="20"></textarea> <br> <br>
+        </fieldset>
+        <button type="reset">Reset</button> 
+        <button type="submit">submit</button> <br>
+
+
+    </form>
+    
+</body>
+</html>
